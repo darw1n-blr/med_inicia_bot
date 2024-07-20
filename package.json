@@ -1,0 +1,23 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for handling contacts and reviews",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "contacts",
+    "reviews"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emailjs/nodejs": "^2.2.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.3"
+  }
+}
