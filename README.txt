@@ -1,6 +1,5 @@
 Телеграм Чат-бот "Медицинская инициатива".
 
-- токен для телеграм-бота: 7279003874:AAHTaF3g8jWLDh4alHMW4W_H5RdK1bnrSuU
 - ссылка на бота: t.me/med_inicia_bot
 
 1. Инструкция для запуска:(Использованное ПО: VS Code, IDE WebStorm. Используемые библиотеки: node-telegram-bot-api, nodemon, @emailjs/nodejs)
@@ -28,12 +27,8 @@ menus.js - большая часть меню(inline-keyboard, reply_markup)
 Отправка на почту: doctor@131.by (передается в аргументе 'to' объекта templateParams)
 
 Сервис для отправки почты: Emailjs(https://www.emailjs.com/)
-	Login: inicia.bot2024@gmail.com
-	Pass: medical_bot_2024
 
 По умолчанию письма будут отправляться с:
-	Login: inicia.bot2024@gmail.com.
-	Pass: medical_bot_2024
 
 Письма отправляются в файле controllers.js при помощи метода emailjs.send():
 Инициализация проводится в файле index.js
@@ -41,5 +36,4 @@ menus.js - большая часть меню(inline-keyboard, reply_markup)
 
 
 4. Изображения
-
 Изображения хранятся по пути .assets/services/
