@@ -2,7 +2,7 @@
 
 - ссылка на бота: t.me/med_inicia_bot
 
-1. Инструкция для запуска:(Использованное ПО: VS Code, IDE WebStorm. Используемые библиотеки: node-telegram-bot-api, nodemon, @emailjs/nodejs)
+1. Инструкция для запуска:(Используемые библиотеки: node-telegram-bot-api, nodemon, @emailjs/nodejs)
 	Ввести команды в консоли в корневой директории бота, в которой расположен файл index.js:
 	1) npm init
 	2) npm install - установка библиотек
@@ -27,8 +27,6 @@ menus.js - большая часть меню(inline-keyboard, reply_markup)
 Отправка на почту: doctor@131.by (передается в аргументе 'to' объекта templateParams)
 
 Сервис для отправки почты: Emailjs(https://www.emailjs.com/)
-
-По умолчанию письма будут отправляться с:
 
 Письма отправляются в файле controllers.js при помощи метода emailjs.send():
 Инициализация проводится в файле index.js
